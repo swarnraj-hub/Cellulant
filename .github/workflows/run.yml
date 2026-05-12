@@ -2,8 +2,6 @@ name: Tingg Payments Export
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '0 6 * * *'   # runs daily at 06:00 UTC
 
 jobs:
   run-tingg:
